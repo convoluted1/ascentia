@@ -1,0 +1,2065 @@
+.approach,
+.industries,
+.my-account,
+.team {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.approach,
+.industries,
+.team {
+  cursor: pointer;
+}
+.my-account {
+  text-align: right;
+  white-space: nowrap;
+}
+.approach-parent,
+.frame-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.approach-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper {
+  width: 403px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.linked-frames-icon {
+  height: 46.4px;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.about-us {
+  white-space: nowrap;
+}
+.about-us,
+.blogs,
+.contact-us,
+.services {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.contact-us {
+  text-align: right;
+  white-space: nowrap;
+}
+.about-us-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-container,
+.frame-parent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-container {
+  width: 379px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.frame-parent {
+  align-self: stretch;
+  background-color: var(--color2);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+  gap: 0 94px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--paragraph-1-size);
+  color: var(--text);
+  font-family: var(--paragraph-2);
+}
+.privacy-policy-terms-f-a-q-fra {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.4px;
+  right: 0;
+  bottom: -0.4px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.a-new-accounting,
+.our-strategic-advisors {
+  align-self: stretch;
+  position: relative;
+  line-height: 91px;
+  text-transform: capitalize;
+  z-index: 1;
+}
+.our-strategic-advisors {
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-family: var(--paragraph-2);
+  color: var(--white);
+}
+.enter-email-link {
+  width: 771px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  max-width: 100%;
+}
+.book-a-call {
+  position: relative;
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-family: var(--paragraph-2);
+  color: var(--white);
+  text-align: right;
+}
+.link {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-9xl) var(--padding-xs)
+    var(--padding-13xl);
+  background-color: var(--color);
+  border-radius: var(--br-81xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.link:hover {
+  background-color: var(--color-darkcyan);
+}
+.privacy-policy-terms-f-a-q-fra-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 208px 21px 210px var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.grow-your-business {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 69px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frame-with-facebook-linkedin-i {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 470px;
+  max-width: 100%;
+}
+.at-ascentia-cpa,
+.get-access-to {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.frame-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+}
+.book-a-call1 {
+  position: relative;
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-family: var(--paragraph-2);
+  color: var(--text);
+  text-align: right;
+}
+.link1 {
+  cursor: pointer;
+  border: 1px solid var(--text);
+  padding: var(--padding-xs) var(--padding-9xl) var(--padding-xs)
+    var(--padding-13xl);
+  background-color: transparent;
+  border-radius: var(--br-81xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.link1:hover {
+  background-color: rgba(82, 102, 117, 0.09);
+  border: 1px solid var(--color-slategray-100);
+  box-sizing: border-box;
+}
+.contact-info,
+.frame-with-frame-quebec-locati {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contact-info {
+  width: 570px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px 0;
+  min-width: 570px;
+  font-size: var(--paragraph-1-size);
+  font-family: var(--paragraph-2);
+}
+.frame-with-frame-quebec-locati {
+  width: 1170px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.infoascentia-c-p-a-logo,
+.infoascentia-c-p-a-mailcom {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.infoascentia-c-p-a-mailcom {
+  background-color: var(--color1);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-181xl) var(--padding-xl);
+  z-index: 2;
+  margin-top: -1px;
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--text);
+}
+.infoascentia-c-p-a-logo {
+  align-items: flex-start;
+  padding: 0 0 var(--padding-181xl);
+  text-align: center;
+  font-size: var(--h1-size);
+  color: var(--rectangle-9);
+  font-family: var(--h5);
+}
+.services-delivered-seamlessly,
+.weve-created-specialised {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+}
+.services-delivered-seamlessly {
+  margin: 0;
+  font-size: inherit;
+  line-height: 62px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.weve-created-specialised {
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-family: var(--paragraph-2);
+}
+.frame-text {
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  max-width: 100%;
+}
+.layer-1-icon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+.svg {
+  width: 100px;
+  height: 100px;
+  border-radius: var(--br-981xl);
+  background-color: var(--bg);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.accounting {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+}
+.svg-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px 0;
+}
+.layer-1-icon1 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+.svg1 {
+  width: 100px;
+  height: 100px;
+  border-radius: var(--br-981xl);
+  background-color: var(--bg);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tax {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+}
+.svg-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px 0;
+}
+.layer-1-icon2 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+.svg2 {
+  width: 100px;
+  height: 100px;
+  border-radius: var(--br-981xl);
+  background-color: var(--bg);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.estate-planning {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+}
+.svg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px 0;
+}
+.layer-1-icon3 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+.svg3 {
+  width: 100px;
+  height: 100px;
+  border-radius: var(--br-981xl);
+  background-color: var(--bg);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.businesadvisory {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+}
+.frame-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px 0;
+}
+.all-access-pass {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 163px;
+  gap: var(--gap-xl);
+  font-size: var(--h6-size);
+  font-family: var(--paragraph-2);
+}
+.frame-c-t-a {
+  width: 1210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-181xl);
+  box-sizing: border-box;
+  gap: 80px 0;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--h3-size);
+  color: var(--text);
+  font-family: var(--h5);
+}
+.frame-icon {
+  width: 1424.5px;
+  height: 918.6px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -46.1px;
+  left: -656.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.harnessing-industry-expertise {
+  margin: 0;
+  width: 1170px;
+  position: relative;
+  font-size: inherit;
+  line-height: 62px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.request-quote-child {
+  width: 545px;
+  display: none;
+  max-width: 100%;
+  z-index: 2;
+}
+.agriculture,
+.frame-erie-street {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.agriculture {
+  letter-spacing: -1px;
+  line-height: 42px;
+  text-transform: capitalize;
+}
+.frame-erie-street {
+  height: 1px;
+  background-color: var(--color-gainsboro-100);
+}
+.rectangle-professional-support {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  min-width: 354px;
+  max-width: 100%;
+}
+.construction,
+.frame-infoascentia-c-p-a {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.construction {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--h5);
+  font-size: var(--h5-size);
+  background-color: transparent;
+  height: 42px;
+  letter-spacing: -1px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 250px;
+}
+.frame-infoascentia-c-p-a {
+  height: 1px;
+  background-color: var(--color-gainsboro-100);
+}
+.rectangle-professional-support-parent,
+.rectangle-professional-support1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-professional-support1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px 0;
+  min-width: 354px;
+}
+.rectangle-professional-support-parent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 80px;
+}
+.frame-child,
+.mining {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.mining {
+  letter-spacing: -1px;
+  line-height: 42px;
+  text-transform: capitalize;
+}
+.frame-child {
+  height: 1px;
+  background-color: var(--color-gainsboro-100);
+}
+.mining-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  min-width: 354px;
+  max-width: 100%;
+}
+.entertainment,
+.frame-item {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.entertainment {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--h5);
+  font-size: var(--h5-size);
+  background-color: transparent;
+  height: 42px;
+  letter-spacing: -1px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 250px;
+}
+.frame-item {
+  height: 1px;
+  background-color: var(--color-gainsboro-100);
+}
+.entertainment-parent,
+.frame-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.entertainment-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px 0;
+  min-width: 354px;
+}
+.frame-group {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 80px;
+}
+.financial-service,
+.frame-inner {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.financial-service {
+  letter-spacing: -1px;
+  line-height: 42px;
+  text-transform: capitalize;
+}
+.frame-inner {
+  height: 1px;
+  background-color: var(--color-gainsboro-100);
+}
+.financial-service-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  min-width: 354px;
+  max-width: 100%;
+}
+.real-estate,
+.rectangle-div {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.real-estate {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--h5);
+  font-size: var(--h5-size);
+  background-color: transparent;
+  height: 42px;
+  letter-spacing: -1px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 250px;
+}
+.rectangle-div {
+  height: 1px;
+  background-color: var(--color-gainsboro-100);
+}
+.frame-parent1,
+.real-estate-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.real-estate-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px 0;
+  min-width: 354px;
+}
+.frame-parent1 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 80px;
+}
+.transportation-marine {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -1px;
+  line-height: 42px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frame-the-only-way-forward,
+.restaurant-food,
+.transportation-marine {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.frame-the-only-way-forward {
+  height: 1px;
+  background-color: var(--color-gainsboro-100);
+}
+.restaurant-food {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -1px;
+  line-height: 42px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frame-the-only-way-forward1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  z-index: 1;
+}
+.valuebased-pricing-all-access {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+}
+.check-our-industry {
+  position: relative;
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-family: var(--paragraph-2);
+  color: var(--white);
+  text-align: right;
+}
+.link2,
+.link2:hover {
+  box-sizing: border-box;
+}
+.link2 {
+  cursor: pointer;
+  border: 1px solid var(--white);
+  padding: var(--padding-xs);
+  background-color: transparent;
+  width: 306px;
+  border-radius: var(--br-81xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.link2:hover {
+  background-color: rgba(230, 230, 230, 0.09);
+  border: 1px solid #e6e6e6;
+}
+.frame-growth-centric {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 80px 0;
+  min-width: 354px;
+  max-width: 100%;
+}
+.technology-software {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--h5);
+  font-size: var(--h5-size);
+  background-color: transparent;
+  align-self: stretch;
+  height: 42px;
+  position: relative;
+  letter-spacing: -1px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 250px;
+  z-index: 1;
+}
+.text-erie-street-south-unit {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  z-index: 1;
+}
+.rectangle-quebec-british-colum {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px 0;
+  min-width: 354px;
+}
+.quebec,
+.rectangle-quebec-british-colum,
+.text-trusted-experienced-team {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.text-trusted-experienced-team {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 80px;
+}
+.quebec {
+  width: 1170px;
+  flex-direction: column;
+  gap: 24px 0;
+  font-size: var(--h5-size);
+}
+.about-career-services-blog-child,
+.request-quote {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.request-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 150px var(--padding-xl);
+  box-sizing: border-box;
+  gap: 80px 0;
+  background-image: url(./public/request-quote@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--white);
+  font-family: var(--h5);
+}
+.about-career-services-blog-child {
+  max-height: 100%;
+}
+.about-career-services-blog {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 306px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.whether-youre-an {
+  margin: 0;
+  width: 870px;
+  position: relative;
+  font-size: inherit;
+  line-height: 62px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.quebec-british-columbia-toront {
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.screenshot-2023-06-10-at-228 {
+  width: 92px;
+  height: 85px;
+  position: relative;
+  object-fit: cover;
+}
+.growth-centric,
+.the-only-way {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.growth-centric {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.the-only-way {
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+}
+.screenshot-2023-06-10-at-228-parent {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  min-width: 137px;
+  max-width: 100%;
+}
+.screenshot-2023-06-10-at-2281 {
+  width: 92px;
+  height: 85px;
+  position: relative;
+  object-fit: cover;
+}
+.the-only-way1,
+.value-based-pricing {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.value-based-pricing {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.the-only-way1 {
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+}
+.screenshot-2023-06-10-at-228-group {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  min-width: 137px;
+  max-width: 100%;
+}
+.screenshot-2023-06-10-at-2282 {
+  width: 92px;
+  height: 85px;
+  position: relative;
+  object-fit: cover;
+}
+.all-access-pass1,
+.the-only-way2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.all-access-pass1 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.the-only-way2 {
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+}
+.screenshot-2023-06-10-at-228-container {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  min-width: 137px;
+  max-width: 100%;
+}
+.screenshot-2023-06-10-at-2283 {
+  width: 92px;
+  height: 85px;
+  position: relative;
+  object-fit: cover;
+}
+.growth-centric1,
+.the-only-way3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.growth-centric1 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.the-only-way3 {
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+}
+.screenshot-2023-06-10-at-228-parent1 {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  min-width: 137px;
+  max-width: 100%;
+}
+.screenshot-2023-06-10-at-2284 {
+  width: 92px;
+  height: 85px;
+  position: relative;
+  object-fit: cover;
+}
+.the-only-way4,
+.value-based-pricing1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.value-based-pricing1 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.the-only-way4 {
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+}
+.screenshot-2023-06-10-at-228-parent2 {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+  min-width: 137px;
+  max-width: 100%;
+}
+.screenshot-2023-06-10-at-2285 {
+  width: 92px;
+  height: 85px;
+  position: relative;
+  object-fit: cover;
+}
+.all-access-pass2,
+.the-only-way5 {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.all-access-pass2 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.the-only-way5 {
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+}
+.infoascentia-c-p-a-gmailcom-fr,
+.screenshot-2023-06-10-at-228-parent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.screenshot-2023-06-10-at-228-parent3 {
+  width: 343px;
+  flex-direction: column;
+  gap: 24px 0;
+  min-width: 137px;
+}
+.infoascentia-c-p-a-gmailcom-fr {
+  width: 1170px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px 66.05px;
+  min-height: 570px;
+  font-size: var(--h6-size);
+  font-family: var(--paragraph-2);
+}
+.erie-street-south-unit-leaming {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-181xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 80px 0;
+  max-width: 100%;
+}
+.our-trusted-experienced,
+.professional-support-for {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+}
+.professional-support-for {
+  margin: 0;
+  font-size: inherit;
+  line-height: 62px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.our-trusted-experienced {
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-family: var(--paragraph-2);
+  color: var(--text-3);
+}
+.business-locations-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+}
+.request-quote1 {
+  position: relative;
+  font-size: var(--paragraph-1-size);
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-family: var(--paragraph-2);
+  color: var(--white);
+  text-align: right;
+}
+.link3,
+.quote-request-link {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-9xl) var(--padding-xs)
+    var(--padding-13xl);
+  background-color: var(--color);
+  border-radius: var(--br-81xl);
+  flex-direction: row;
+  white-space: nowrap;
+}
+.link3:hover {
+  background-color: var(--color-darkcyan);
+}
+.quote-request-link {
+  flex: 1;
+  flex-direction: column;
+  gap: 40px 0;
+  min-width: 354px;
+  max-width: 100%;
+}
+.get-in-touch,
+.infoascentiacpagmailcom {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.infoascentiacpagmailcom {
+  margin: 0;
+  font-size: var(--h5-size);
+  letter-spacing: -1px;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: var(--h5);
+  color: var(--text-3);
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.get-in-touch-with-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: 8px 0;
+  max-width: 100%;
+}
+.div,
+.make-a-call {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.div {
+  font-size: var(--h5-size);
+  letter-spacing: -1px;
+  line-height: 42px;
+  font-family: var(--h5);
+  color: var(--text-3);
+}
+.make-a-call-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xs) 0;
+  gap: 8px 0;
+}
+.city-labels-frame,
+.professional-support-text {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.city-labels-frame {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px 0;
+  min-width: 354px;
+  font-size: var(--paragraph-2-size);
+  font-family: var(--paragraph-2);
+}
+.professional-support-text {
+  width: 1170px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0 80px;
+  font-family: var(--h5);
+}
+.instance-child {
+  width: 1170px;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  max-width: 100%;
+}
+.quebec1 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.quebec-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.erie-street-south,
+.frame {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.erie-street-south {
+  align-self: stretch;
+}
+.frame {
+  white-space: nowrap;
+}
+.contact-info1,
+.frame-parent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-info1 {
+  align-self: stretch;
+  gap: 8px 0;
+  font-size: var(--paragraph-2-size);
+  color: var(--text-3);
+}
+.frame-parent2 {
+  width: 170px;
+  gap: 16px 0;
+}
+.british-columbia {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.british-columbia-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div1,
+.erie-street-south1 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.erie-street-south1 {
+  align-self: stretch;
+}
+.div1 {
+  white-space: nowrap;
+}
+.erie-street-south-unit-2leam-parent,
+.frame-parent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.erie-street-south-unit-2leam-parent {
+  align-self: stretch;
+  gap: 8px 0;
+  font-size: var(--paragraph-2-size);
+  color: var(--text-3);
+}
+.frame-parent3 {
+  width: 170px;
+  gap: 16px 0;
+}
+.toronto {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.toronto-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div2,
+.erie-street-south2 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.erie-street-south2 {
+  align-self: stretch;
+}
+.div2 {
+  white-space: nowrap;
+}
+.erie-street-south-unit-2leam-group,
+.frame-parent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.erie-street-south-unit-2leam-group {
+  align-self: stretch;
+  gap: 8px 0;
+  font-size: var(--paragraph-2-size);
+  color: var(--text-3);
+}
+.frame-parent4 {
+  width: 170px;
+  gap: 16px 0;
+}
+.calgary {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.calgary-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div3,
+.erie-street-south3 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.erie-street-south3 {
+  align-self: stretch;
+}
+.div3 {
+  white-space: nowrap;
+}
+.erie-street-south-unit-2leam-container,
+.frame-parent5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.erie-street-south-unit-2leam-container {
+  align-self: stretch;
+  gap: 8px 0;
+  font-size: var(--paragraph-2-size);
+  color: var(--text-3);
+}
+.frame-parent5 {
+  width: 170px;
+  gap: 16px 0;
+}
+.hallifax {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.hallifax-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div4,
+.erie-street-south4 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.erie-street-south4 {
+  align-self: stretch;
+}
+.div4 {
+  white-space: nowrap;
+}
+.erie-street-south-unit-2leam-parent1,
+.frame-parent6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.erie-street-south-unit-2leam-parent1 {
+  align-self: stretch;
+  gap: 8px 0;
+  font-size: var(--paragraph-2-size);
+  color: var(--text-3);
+}
+.frame-parent6 {
+  width: 170px;
+  gap: 16px 0;
+}
+.leamington-o-n-frame {
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--paragraph-1-size);
+  color: var(--color);
+}
+.frame-icon1,
+.instance-item {
+  position: relative;
+  max-width: 100%;
+}
+.instance-item {
+  width: 1170px;
+  height: 1px;
+  background-color: var(--color-gray-100);
+}
+.frame-icon1 {
+  align-self: stretch;
+  height: 46px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.support-section {
+  width: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ascetiacpa-2023-all {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.copyright-text,
+.support-section-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 16px;
+}
+.support-section-parent {
+  width: 374px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px 0;
+  max-width: 100%;
+}
+.about,
+.blog1,
+.career,
+.services1 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.blog {
+  width: 123.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px 0;
+}
+.faq,
+.privacy-policy,
+.terms-contions {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.subscription-section {
+  height: 144px;
+  width: 158.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px 0;
+}
+.subscribe-to-get {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.divplaceholder,
+.enter-email-address {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.enter-email-address {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--paragraph-2);
+  font-size: var(--paragraph-2-size);
+  background-color: transparent;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-secondary);
+  text-align: left;
+  min-width: 107px;
+}
+.divplaceholder {
+  border-radius: var(--br-981xl);
+  border: 1px solid var(--text);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-5xs) 15px;
+  min-width: 136px;
+}
+.subscribe {
+  position: relative;
+  font-size: var(--paragraph-2-size);
+  line-height: 24px;
+  text-transform: capitalize;
+  font-family: var(--paragraph-2);
+  color: var(--white);
+  text-align: right;
+}
+.link4,
+.subscribe-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.link4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) 16px;
+  background-color: var(--text);
+  border-radius: var(--br-81xl);
+  align-items: flex-start;
+}
+.link4:hover {
+  background-color: var(--color-slategray-100);
+}
+.subscribe-btn {
+  align-self: stretch;
+  align-items: center;
+  gap: 0 16px;
+}
+.frame-subscribe-link,
+.header {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-subscribe-link {
+  width: 333px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px 0;
+  min-width: 216px;
+  min-height: 144px;
+  text-align: left;
+  color: var(--white);
+}
+.header {
+  width: 1170px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  gap: 0 60px;
+  text-align: center;
+  font-size: var(--paragraph-2-size);
+  color: var(--text-3);
+}
+.frame-quebec,
+.professional-support-text-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.professional-support-text-parent {
+  align-self: stretch;
+  background-color: var(--bg);
+  overflow: hidden;
+  align-items: center;
+  padding: 100px var(--padding-41xl) var(--padding-41xl);
+  box-sizing: border-box;
+  gap: 40px 0;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--white);
+  font-family: var(--paragraph-2);
+}
+.frame-quebec {
+  flex: 1;
+  align-items: flex-start;
+  gap: 782px 0;
+  margin-left: -1440px;
+}
+.frame-facebook-linkedin-instag,
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-facebook-linkedin-instag {
+  align-self: stretch;
+  flex-direction: row;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--text);
+  font-family: var(--h5);
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  flex-direction: column;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .contact-info,
+  .frame-with-facebook-linkedin-i {
+    flex: 1;
+  }
+  .frame-with-frame-quebec-locati {
+    flex-wrap: wrap;
+  }
+  .infoascentia-c-p-a-logo {
+    padding-bottom: var(--padding-111xl);
+    box-sizing: border-box;
+  }
+  .all-access-pass {
+    padding-left: var(--padding-62xl);
+    padding-right: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+  .frame-group,
+  .frame-parent1,
+  .rectangle-professional-support-parent,
+  .text-trusted-experienced-team {
+    gap: 0 80px;
+  }
+  .about-career-services-blog {
+    padding-top: 199px;
+    box-sizing: border-box;
+  }
+  .erie-street-south-unit-leaming {
+    padding-top: var(--padding-1441xl);
+    padding-bottom: var(--padding-111xl);
+    box-sizing: border-box;
+  }
+  .professional-support-text {
+    gap: 0 80px;
+  }
+  .header {
+    gap: 0 60px;
+  }
+  .professional-support-text-parent {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .approach-parent {
+    display: none;
+  }
+  .frame-wrapper {
+    width: 0;
+  }
+  .a-new-accounting {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .privacy-policy-terms-f-a-q-fra-parent {
+    padding-top: 135px;
+    padding-bottom: 136px;
+    box-sizing: border-box;
+  }
+  .grow-your-business {
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .infoascentia-c-p-a-logo {
+    padding-bottom: var(--padding-65xl);
+    box-sizing: border-box;
+  }
+  .services-delivered-seamlessly {
+    font-size: var(--font-size-23xl);
+    line-height: 50px;
+  }
+  .all-access-pass {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .harnessing-industry-expertise {
+    font-size: var(--font-size-23xl);
+    line-height: 50px;
+  }
+  .agriculture,
+  .construction,
+  .entertainment,
+  .financial-service,
+  .mining,
+  .real-estate,
+  .restaurant-food,
+  .technology-software,
+  .transportation-marine {
+    font-size: var(--font-size-6xl);
+    line-height: 34px;
+  }
+  .request-quote {
+    padding-top: var(--padding-78xl);
+    padding-bottom: var(--padding-78xl);
+    box-sizing: border-box;
+  }
+  .professional-support-for,
+  .whether-youre-an {
+    font-size: var(--font-size-23xl);
+    line-height: 50px;
+  }
+  .div,
+  .infoascentiacpagmailcom {
+    font-size: var(--font-size-6xl);
+    line-height: 34px;
+  }
+  .leamington-o-n-frame {
+    flex-wrap: wrap;
+  }
+  .frame-subscribe-link {
+    min-height: auto;
+  }
+  .header {
+    flex-wrap: wrap;
+  }
+  .professional-support-text-parent {
+    padding-top: var(--padding-1441xl);
+    padding-bottom: 39px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent {
+    gap: 0 94px;
+  }
+  .contact-info,
+  .frame-with-facebook-linkedin-i {
+    min-width: 100%;
+  }
+  .contact-info {
+    gap: 40px 0;
+  }
+  .infoascentia-c-p-a-mailcom {
+    padding-bottom: var(--padding-111xl);
+    box-sizing: border-box;
+  }
+  .all-access-pass {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .frame-c-t-a {
+    gap: 80px 0;
+    padding-bottom: var(--padding-111xl);
+    box-sizing: border-box;
+  }
+  .frame-group,
+  .frame-parent1,
+  .rectangle-professional-support-parent {
+    gap: 0 80px;
+  }
+  .frame-growth-centric {
+    gap: 80px 0;
+  }
+  .text-trusted-experienced-team {
+    gap: 0 80px;
+  }
+  .request-quote {
+    gap: 80px 0;
+    padding-top: var(--padding-44xl);
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+  .about-career-services-blog {
+    padding-top: 129px;
+    box-sizing: border-box;
+  }
+  .infoascentia-c-p-a-gmailcom-fr {
+    gap: 80px 66.05px;
+  }
+  .erie-street-south-unit-leaming {
+    gap: 80px 0;
+    padding-bottom: var(--padding-65xl);
+    box-sizing: border-box;
+  }
+  .city-labels-frame,
+  .quote-request-link {
+    gap: 40px 0;
+    min-width: 100%;
+  }
+  .professional-support-text {
+    gap: 0 80px;
+  }
+  .professional-support-text-parent {
+    gap: 40px 0;
+  }
+  .frame-quebec {
+    gap: 782px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us-parent {
+    display: none;
+  }
+  .frame-container {
+    width: 0;
+  }
+  .frame-parent {
+    gap: 0 94px;
+  }
+  .a-new-accounting {
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .privacy-policy-terms-f-a-q-fra-parent {
+    gap: var(--gap-21xl);
+    padding-top: var(--padding-69xl);
+    padding-bottom: var(--padding-69xl);
+    box-sizing: border-box;
+  }
+  .grow-your-business {
+    font-size: 41px;
+    line-height: 41px;
+  }
+  .infoascentia-c-p-a-logo {
+    padding-bottom: 55px;
+    box-sizing: border-box;
+  }
+  .services-delivered-seamlessly {
+    font-size: var(--font-size-13xl);
+    line-height: 37px;
+  }
+  .accounting,
+  .businesadvisory,
+  .estate-planning,
+  .tax {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+  .frame-c-t-a {
+    gap: 80px 0;
+  }
+  .harnessing-industry-expertise {
+    font-size: var(--font-size-13xl);
+    line-height: 37px;
+  }
+  .agriculture {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .rectangle-professional-support {
+    min-width: 100%;
+  }
+  .construction {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .rectangle-professional-support1 {
+    min-width: 100%;
+  }
+  .mining {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .mining-parent {
+    min-width: 100%;
+  }
+  .entertainment {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .entertainment-parent {
+    min-width: 100%;
+  }
+  .financial-service {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .financial-service-parent {
+    min-width: 100%;
+  }
+  .real-estate {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .real-estate-parent {
+    min-width: 100%;
+  }
+  .restaurant-food,
+  .transportation-marine {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .frame-growth-centric {
+    gap: 80px 0;
+    min-width: 100%;
+  }
+  .technology-software {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .rectangle-quebec-british-colum {
+    min-width: 100%;
+  }
+  .request-quote {
+    gap: 80px 0;
+  }
+  .whether-youre-an {
+    font-size: var(--font-size-13xl);
+    line-height: 37px;
+  }
+  .all-access-pass1,
+  .all-access-pass2,
+  .growth-centric,
+  .growth-centric1,
+  .value-based-pricing,
+  .value-based-pricing1 {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+  .infoascentia-c-p-a-gmailcom-fr {
+    gap: 80px 66.05px;
+  }
+  .erie-street-south-unit-leaming {
+    gap: 80px 0;
+  }
+  .professional-support-for {
+    font-size: var(--font-size-13xl);
+    line-height: 37px;
+  }
+  .div,
+  .infoascentiacpagmailcom {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .subscribe-btn {
+    flex-wrap: wrap;
+  }
+  .professional-support-text-parent {
+    padding-bottom: 25px;
+    box-sizing: border-box;
+  }
+  .frame-quebec {
+    gap: 782px 0;
+  }
+}
